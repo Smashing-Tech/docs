@@ -4,3 +4,4 @@ Unofficial modding documentation for Smash Hit and other games by Mediocre AB
 
  * [Assets](assets/Readme.md)
  * [Physics](physics/Readme.md)
+ * [Saves](saves/Readme.md)
