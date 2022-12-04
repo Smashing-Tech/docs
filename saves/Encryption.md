@@ -20,11 +20,11 @@ For the byte at index `n`, the chipertext is `Key[n % KeyLength] + (PlaintextLen
 
 For quick reference, here are the keys for some of the games:
 
-| Game | Key |
-| --- | --- |
-| Sprinkle Islands | `0u1er0ck5` |
-| Granny Smith | `gr4nny0n5k47es` |
-| Smash Hit | `5m45hh1t41ght` |
-| Beyondium | `d1r4c15Da5h1T` |
-| Does not Commute | `d035n0tc0mmut3inl33t` |
-| PinOut | `n01t15ntp1n0ut1s` |
+| Game | Key | Unleetspeaked |
+| --- | --- | --- |
+| Sprinkle Islands | `0u1er0ck5` | Ouie rocks |
+| Granny Smith | `gr4nny0n5k47es` | Granny On Stakes |
+| Smash Hit | `5m45hh1t41ght` | Smash Hit Aight |
+| Beyondium | `d1r4c15Da5h1T` | Dirac Is Da Shit |
+| Does not Commute | `d035n0tc0mmut3inl33t` | Does not commute in leet |
+| PinOut | `n01t15ntp1n0ut1s` | no it isnt pinout is |
