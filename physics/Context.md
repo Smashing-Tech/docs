@@ -1,13 +1,17 @@
 # Contexts
 
-## `void *tdContextCreate(memory_alloc_t alloc_function, memory_free_t free_function)`
+Contexts hold some state for the physics library.
+
+## Functions
+
+### `TdContextInternal *tdContextCreate(memory_alloc_t alloc_function, memory_free_t free_function)`
 
 Creates and returns a default context.
 
 Here is a decompilation of what is happening:
 
 ```cpp
-void *tdContextCreate(memory_alloc_t alloc_function, memory_free_t free_function) {
+TdContextInternal *tdContextCreate(memory_alloc_t alloc_function, memory_free_t free_function) {
     if (alloc_function == nullptr) {
         alloc_function = &malloc;
     }
@@ -21,9 +25,14 @@ void *tdContextCreate(memory_alloc_t alloc_function, memory_free_t free_function
     context->memory_alloc = alloc_function;
     context->memory_free = free_function;
     
+    // Comment: Yes, the params are really reversed like this.
     tdContextSetMaxIterations(context, 0x20);
     tdContextSetTolerance(0.001f, context);
     
-    return (void *) context;
+    return context;
 }
 ```
+
+### `void tdContextDestroy(TdContextInternal *context)`
+
+Frees the context.
