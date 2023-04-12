@@ -12,7 +12,7 @@ struct TdContextInternal {
     memory_alloc_t memory_alloc;
     memory_free_t memory_free;
     int32_t max_iterations;
-    int32_t tolerence;
+    float tolerence;
 };
 ```
 
