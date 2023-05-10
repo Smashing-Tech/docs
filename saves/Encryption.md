@@ -10,7 +10,7 @@ The save progression file is `progression.xml` and is the only encrypted file.
 
 ## Helpful knowledge
 
-The encryption is essentially just a [Vigenère cipher](https://www.khanacademy.org/computing/computer-science/cryptography/crypt/v/polyalphabetic-cipher) applied in addition to a [Cesar cipher](https://www.khanacademy.org/computing/computer-science/cryptography/crypt/v/caesar-cipher). (Yes. Please click the links.)
+The encryption is essentially just an Affine cipher, which is a [Vigenère cipher](https://www.khanacademy.org/computing/computer-science/cryptography/crypt/v/polyalphabetic-cipher) applied in addition to a [Cesar cipher](https://www.khanacademy.org/computing/computer-science/cryptography/crypt/v/caesar-cipher). (Yes. Please click the links.)
 
 For those who don't know:
 
